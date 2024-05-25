@@ -1,4 +1,4 @@
-cross browser testing dependencies
+cross browser testing dependecy
 
 
  <!-- different drivers for cross browser testing with maven build  -->
