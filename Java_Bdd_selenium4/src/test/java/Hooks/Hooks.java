@@ -5,6 +5,7 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import Utils.ScreenshotUtil;
@@ -13,7 +14,6 @@ import java.io.File;
 import java.time.Duration;
 
 public class Hooks {
-	
 
     private static WebDriver driver;
     private ScreenshotUtil screenshotUtil;
@@ -26,6 +26,15 @@ public class Hooks {
         deleteScreenshots();
 
         logger.info("Initializing WebDriver.");
+        /*
+         *  Usage of chrome options Headless browser
+         */
+        
+//        ChromeOptions options = new ChromeOptions();
+//        options.addArguments("--headless"); // Add headless argument
+//        options.addArguments("--disable-gpu"); // Disable GPU acceleration (required for Windows OS)
+//        options.addArguments("--window-size=1920,1080"); // Set window size to avoid issues with elements not being in the viewport
+//        driver = new ChromeDriver(options);
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
         driver.manage().window().maximize();

@@ -1199,3 +1199,257 @@
 2024-05-25 21:56:20 INFO  StepDefinitions.LoginTest - Alert accepted
 2024-05-25 21:56:22 INFO  StepDefinitions.LoginTest - Alert accepted
 2024-05-25 21:56:23 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-05-26 01:12:22 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Harish kumar\Music\masterRepo\Java_Bdd_selenium4\testng.xml"
+2024-05-26 01:13:24 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Harish kumar\Music\masterRepo\Java_Bdd_selenium4\testng.xml"
+2024-06-14 21:36:44 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Harish kumar\Music\masterRepo\Java_Bdd_selenium4\testng.xml"
+2024-06-14 21:36:45 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:36:45 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:36:49 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:36:50 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:36:50 INFO  StepDefinitions.LoginTest - Clicked on Contact of menu
+2024-06-14 21:36:50 INFO  StepDefinitions.LoginTest - Switched to alert
+2024-06-14 21:36:50 INFO  StepDefinitions.LoginTest - Alert message: Thanks for the message!!
+2024-06-14 21:36:51 ERROR Hooks.Hooks - Scenario 'Should verify contact feature under menu using Excel data' failed. Taking screenshot.
+2024-06-14 21:36:51 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:36:52 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:36:52 DEBUG Hooks.Hooks - Deleting file: Should verify contact feature under menu using Excel data.png
+2024-06-14 21:36:52 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:36:54 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:36:54 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:36:54 INFO  StepDefinitions.LoginTest - Entering username: harish24 and password: Hari@3344
+2024-06-14 21:36:54 INFO  StepDefinitions.LoginTest - Clicking on login.
+2024-06-14 21:36:54 INFO  StepDefinitions.LoginTest - Validating user login.
+2024-06-14 21:36:56 INFO  StepDefinitions.LoginTest - Clicking on logout.
+2024-06-14 21:36:56 INFO  StepDefinitions.LoginTest - Validating page title.
+2024-06-14 21:36:56 INFO  StepDefinitions.LoginTest - Closing the browser.
+2024-06-14 21:36:56 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:36:57 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:36:57 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:36:59 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:36:59 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:36:59 INFO  StepDefinitions.LoginTest - Entering username: harish13 and password: test123
+2024-06-14 21:36:59 INFO  StepDefinitions.LoginTest - Clicking on login.
+2024-06-14 21:36:59 INFO  StepDefinitions.LoginTest - Validating user login.
+2024-06-14 21:37:01 INFO  StepDefinitions.LoginTest - Clicking on logout.
+2024-06-14 21:37:01 INFO  StepDefinitions.LoginTest - Validating page title.
+2024-06-14 21:37:01 INFO  StepDefinitions.LoginTest - Closing the browser.
+2024-06-14 21:37:01 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:37:01 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:37:01 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:37:04 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:37:04 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:37:04 INFO  StepDefinitions.LoginTest - Entering username: hagdhj and password: sdafgg
+2024-06-14 21:37:04 INFO  StepDefinitions.LoginTest - Clicking on login.
+2024-06-14 21:37:04 INFO  StepDefinitions.LoginTest - Validating error message.
+2024-06-14 21:37:05 INFO  StepDefinitions.LoginTest - Closing the browser.
+2024-06-14 21:37:05 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:37:06 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:37:06 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:37:07 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:37:07 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:37:07 INFO  StepDefinitions.LoginTest - Entering username: teshha and password: hjklaj
+2024-06-14 21:37:08 INFO  StepDefinitions.LoginTest - Clicking on login.
+2024-06-14 21:37:08 INFO  StepDefinitions.LoginTest - Validating error message.
+2024-06-14 21:37:09 INFO  StepDefinitions.LoginTest - Closing the browser.
+2024-06-14 21:37:09 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:37:09 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:37:09 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:37:11 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:37:11 INFO  StepDefinitions.LoginTest - Clicked on Contact of menu
+2024-06-14 21:37:12 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:37:14 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:37:16 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:37:16 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:43:31 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Harish kumar\Music\masterRepo\Java_Bdd_selenium4\testng.xml"
+2024-06-14 21:43:31 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:43:31 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:43:34 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:43:34 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:43:34 INFO  StepDefinitions.LoginTest - Clicked on Contact of menu
+2024-06-14 21:43:35 INFO  StepDefinitions.LoginTest - Switched to alert
+2024-06-14 21:43:35 INFO  StepDefinitions.LoginTest - Alert message: Thanks for the message!!
+2024-06-14 21:43:35 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:43:36 INFO  StepDefinitions.LoginTest - Switched to alert
+2024-06-14 21:43:36 INFO  StepDefinitions.LoginTest - Alert message: Thanks for the message!!
+2024-06-14 21:43:37 ERROR Hooks.Hooks - Scenario 'Should verify contact feature under menu using Excel data' failed. Taking screenshot.
+2024-06-14 21:43:37 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:43:37 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:43:37 DEBUG Hooks.Hooks - Deleting file: Should verify contact feature under menu using Excel data.png
+2024-06-14 21:43:37 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:43:39 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:43:39 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:43:39 INFO  StepDefinitions.LoginTest - Entering username: harish24 and password: Hari@3344
+2024-06-14 21:43:39 INFO  StepDefinitions.LoginTest - Clicking on login.
+2024-06-14 21:43:39 INFO  StepDefinitions.LoginTest - Validating user login.
+2024-06-14 21:43:42 INFO  StepDefinitions.LoginTest - Clicking on logout.
+2024-06-14 21:43:42 INFO  StepDefinitions.LoginTest - Validating page title.
+2024-06-14 21:43:42 INFO  StepDefinitions.LoginTest - Closing the browser.
+2024-06-14 21:43:42 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:43:42 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:43:42 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:43:44 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:43:44 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:43:44 INFO  StepDefinitions.LoginTest - Entering username: harish13 and password: test123
+2024-06-14 21:43:46 INFO  StepDefinitions.LoginTest - Clicking on login.
+2024-06-14 21:43:46 INFO  StepDefinitions.LoginTest - Validating user login.
+2024-06-14 21:43:47 INFO  StepDefinitions.LoginTest - Clicking on logout.
+2024-06-14 21:43:48 INFO  StepDefinitions.LoginTest - Validating page title.
+2024-06-14 21:43:48 INFO  StepDefinitions.LoginTest - Closing the browser.
+2024-06-14 21:43:48 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:43:48 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:43:48 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:43:50 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:43:50 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:43:50 INFO  StepDefinitions.LoginTest - Entering username: hagdhj and password: sdafgg
+2024-06-14 21:43:51 INFO  StepDefinitions.LoginTest - Clicking on login.
+2024-06-14 21:43:51 INFO  StepDefinitions.LoginTest - Validating error message.
+2024-06-14 21:43:52 INFO  StepDefinitions.LoginTest - Closing the browser.
+2024-06-14 21:43:52 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:43:52 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:43:52 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:43:53 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:43:53 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:43:53 INFO  StepDefinitions.LoginTest - Entering username: teshha and password: hjklaj
+2024-06-14 21:43:54 INFO  StepDefinitions.LoginTest - Clicking on login.
+2024-06-14 21:43:54 INFO  StepDefinitions.LoginTest - Validating error message.
+2024-06-14 21:43:55 INFO  StepDefinitions.LoginTest - Closing the browser.
+2024-06-14 21:43:55 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:43:55 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:43:55 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:43:57 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:43:57 INFO  StepDefinitions.LoginTest - Clicked on Contact of menu
+2024-06-14 21:43:59 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:44:01 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:44:03 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:44:03 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:45:48 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Harish kumar\Music\masterRepo\Java_Bdd_selenium4\testng.xml"
+2024-06-14 21:45:49 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:45:49 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:45:54 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:45:55 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:45:55 INFO  StepDefinitions.LoginTest - Clicked on Contact of menu
+2024-06-14 21:45:55 INFO  StepDefinitions.LoginTest - Switched to alert
+2024-06-14 21:45:55 INFO  StepDefinitions.LoginTest - Alert message: Thanks for the message!!
+2024-06-14 21:45:56 ERROR Hooks.Hooks - Scenario 'Should verify contact feature under menu using Excel data' failed. Taking screenshot.
+2024-06-14 21:45:56 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:45:56 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:45:56 DEBUG Hooks.Hooks - Deleting file: Should verify contact feature under menu using Excel data.png
+2024-06-14 21:45:56 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:45:58 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:45:58 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:45:58 INFO  StepDefinitions.LoginTest - Entering username: harish24 and password: Hari@3344
+2024-06-14 21:45:59 INFO  StepDefinitions.LoginTest - Clicking on login.
+2024-06-14 21:45:59 INFO  StepDefinitions.LoginTest - Validating user login.
+2024-06-14 21:46:01 INFO  StepDefinitions.LoginTest - Clicking on logout.
+2024-06-14 21:46:01 INFO  StepDefinitions.LoginTest - Validating page title.
+2024-06-14 21:46:01 INFO  StepDefinitions.LoginTest - Closing the browser.
+2024-06-14 21:46:01 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:46:01 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:46:01 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:46:03 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:46:03 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:46:03 INFO  StepDefinitions.LoginTest - Entering username: harish13 and password: test123
+2024-06-14 21:46:03 INFO  StepDefinitions.LoginTest - Clicking on login.
+2024-06-14 21:46:03 INFO  StepDefinitions.LoginTest - Validating user login.
+2024-06-14 21:46:05 INFO  StepDefinitions.LoginTest - Clicking on logout.
+2024-06-14 21:46:05 INFO  StepDefinitions.LoginTest - Validating page title.
+2024-06-14 21:46:05 INFO  StepDefinitions.LoginTest - Closing the browser.
+2024-06-14 21:46:05 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:46:06 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:46:06 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:46:07 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:46:07 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:46:07 INFO  StepDefinitions.LoginTest - Entering username: hagdhj and password: sdafgg
+2024-06-14 21:46:07 INFO  StepDefinitions.LoginTest - Clicking on login.
+2024-06-14 21:46:07 INFO  StepDefinitions.LoginTest - Validating error message.
+2024-06-14 21:46:08 INFO  StepDefinitions.LoginTest - Closing the browser.
+2024-06-14 21:46:08 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:46:09 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:46:09 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:46:10 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:46:10 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:46:10 INFO  StepDefinitions.LoginTest - Entering username: teshha and password: hjklaj
+2024-06-14 21:46:10 INFO  StepDefinitions.LoginTest - Clicking on login.
+2024-06-14 21:46:11 INFO  StepDefinitions.LoginTest - Validating error message.
+2024-06-14 21:46:12 INFO  StepDefinitions.LoginTest - Closing the browser.
+2024-06-14 21:46:12 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:46:12 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:46:12 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:46:13 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:46:13 INFO  StepDefinitions.LoginTest - Clicked on Contact of menu
+2024-06-14 21:46:15 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:46:16 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:46:18 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:46:18 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:47:41 DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\Harish kumar\Music\masterRepo\Java_Bdd_selenium4\testng.xml"
+2024-06-14 21:47:42 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:47:42 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:47:45 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:47:45 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:47:45 INFO  StepDefinitions.LoginTest - Clicked on Contact of menu
+2024-06-14 21:47:46 INFO  StepDefinitions.LoginTest - Switched to alert
+2024-06-14 21:47:46 INFO  StepDefinitions.LoginTest - Alert message: Thanks for the message!!
+2024-06-14 21:47:46 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:47:47 INFO  StepDefinitions.LoginTest - Switched to alert
+2024-06-14 21:47:47 INFO  StepDefinitions.LoginTest - Alert message: Thanks for the message!!
+2024-06-14 21:47:47 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:47:48 INFO  StepDefinitions.LoginTest - Switched to alert
+2024-06-14 21:47:48 INFO  StepDefinitions.LoginTest - Alert message: Thanks for the message!!
+2024-06-14 21:47:48 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:47:48 INFO  StepDefinitions.LoginTest - Switched to alert
+2024-06-14 21:47:48 INFO  StepDefinitions.LoginTest - Alert message: Thanks for the message!!
+2024-06-14 21:47:48 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:47:49 INFO  StepDefinitions.LoginTest - Switched to alert
+2024-06-14 21:47:49 INFO  StepDefinitions.LoginTest - Alert message: Thanks for the message!!
+2024-06-14 21:47:49 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:47:49 INFO  StepDefinitions.LoginTest - Entered contact details
+2024-06-14 21:47:49 INFO  StepDefinitions.LoginTest - Alert is opned 
+2024-06-14 21:47:49 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:47:49 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:47:49 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:47:51 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:47:51 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:47:51 INFO  StepDefinitions.LoginTest - Entering username: harish24 and password: Hari@3344
+2024-06-14 21:47:52 INFO  StepDefinitions.LoginTest - Clicking on login.
+2024-06-14 21:47:52 INFO  StepDefinitions.LoginTest - Validating user login.
+2024-06-14 21:47:54 INFO  StepDefinitions.LoginTest - Clicking on logout.
+2024-06-14 21:47:55 INFO  StepDefinitions.LoginTest - Validating page title.
+2024-06-14 21:47:55 INFO  StepDefinitions.LoginTest - Closing the browser.
+2024-06-14 21:47:55 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:47:55 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:47:55 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:47:57 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:47:57 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:47:57 INFO  StepDefinitions.LoginTest - Entering username: harish13 and password: test123
+2024-06-14 21:47:57 INFO  StepDefinitions.LoginTest - Clicking on login.
+2024-06-14 21:47:57 INFO  StepDefinitions.LoginTest - Validating user login.
+2024-06-14 21:47:59 INFO  StepDefinitions.LoginTest - Clicking on logout.
+2024-06-14 21:48:00 INFO  StepDefinitions.LoginTest - Validating page title.
+2024-06-14 21:48:00 INFO  StepDefinitions.LoginTest - Closing the browser.
+2024-06-14 21:48:00 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:48:00 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:48:00 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:48:02 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:48:02 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:48:02 INFO  StepDefinitions.LoginTest - Entering username: hagdhj and password: sdafgg
+2024-06-14 21:48:03 INFO  StepDefinitions.LoginTest - Clicking on login.
+2024-06-14 21:48:03 INFO  StepDefinitions.LoginTest - Validating error message.
+2024-06-14 21:48:04 INFO  StepDefinitions.LoginTest - Closing the browser.
+2024-06-14 21:48:04 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:48:04 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:48:04 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:48:06 INFO  StepDefinitions.LoginTest - Launching Chrome browser.
+2024-06-14 21:48:06 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:48:06 INFO  StepDefinitions.LoginTest - Entering username: teshha and password: hjklaj
+2024-06-14 21:48:06 INFO  StepDefinitions.LoginTest - Clicking on login.
+2024-06-14 21:48:06 INFO  StepDefinitions.LoginTest - Validating error message.
+2024-06-14 21:48:07 INFO  StepDefinitions.LoginTest - Closing the browser.
+2024-06-14 21:48:07 INFO  Hooks.Hooks - Quitting WebDriver.
+2024-06-14 21:48:08 INFO  Hooks.Hooks - Deleting old screenshots.
+2024-06-14 21:48:08 INFO  Hooks.Hooks - Initializing WebDriver.
+2024-06-14 21:48:09 INFO  StepDefinitions.LoginTest - Navigating to login page.
+2024-06-14 21:48:10 INFO  StepDefinitions.LoginTest - Clicked on Contact of menu
+2024-06-14 21:48:11 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:48:13 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:48:15 INFO  StepDefinitions.LoginTest - Alert accepted
+2024-06-14 21:48:15 INFO  Hooks.Hooks - Quitting WebDriver.

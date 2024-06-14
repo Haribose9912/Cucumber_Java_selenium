@@ -1,49 +1,30 @@
 package Utils;
 
-import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.io.File;
 import java.io.IOException;
-import java.text.SimpleDateFormat;
-import java.util.Date;
+import java.nio.file.Files;
+import java.nio.file.Paths;
 
 public class ScreenshotUtil {
-	private static final Logger log = LoggerFactory.getLogger(ScreenshotUtil.class);
+
     private WebDriver driver;
+    private static final String SCREENSHOT_DIR = "Screenshots";
 
     public ScreenshotUtil(WebDriver driver) {
         this.driver = driver;
     }
-    	
-    public void takeScreenshot(String testName) {
-    	log.info("Taking screenshot for test: {}", testName);
-        // Get the screenshot as an image file
-        File srcFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
-        // Define the destination file path
-        String timestamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
-        String destDir = "Screenshots";
-        String destFilePath = destDir + "/" + testName + "_" + timestamp + ".png";
-
+    public void takeScreenshot(String scenarioName) {
+        File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
         try {
-            // Create the screenshots directory if it doesn't exist
-            File destDirFile = new File(destDir);
-            if (!destDirFile.exists()) {
-                destDirFile.mkdirs();
-            }
-            // Copy the screenshot to the destination path
-            FileUtils.copyFile(srcFile, new File(destFilePath));
-            System.out.println("Screenshot taken: " + destFilePath);
-            log.info("Screenshot saved at: {}", destFilePath);
+            Files.createDirectories(Paths.get(SCREENSHOT_DIR));
+            Files.move(screenshot.toPath(), Paths.get(SCREENSHOT_DIR, scenarioName + ".png"));
         } catch (IOException e) {
-        	 log.error("Failed to take screenshot: {}", e.getMessage());
             e.printStackTrace();
-            System.out.println("Failed to take screenshot: " + e.getMessage());
         }
     }
 }
