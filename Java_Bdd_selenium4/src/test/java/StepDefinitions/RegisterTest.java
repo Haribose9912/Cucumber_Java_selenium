@@ -2,8 +2,6 @@ package StepDefinitions;
 
 import io.cucumber.datatable.DataTable;
 
-import static org.junit.Assert.assertNotNull;
-
 import java.time.Duration;
 import java.util.*;
 

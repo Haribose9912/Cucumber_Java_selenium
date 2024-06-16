@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>5/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>6/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sat May 25 21:42:15 IST 2024</td>
+<td>Started on:</td><td>Sat Jun 15 10:13:14 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>33 seconds (33735 ms)</td>
+<tr><td>Total time:</td><td>35 seconds (35781 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,68 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='TestRunner.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Should verify contact feature under menu using Excel data", "Contact"</td>
-<td><div><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;nav-link&quot; data-toggle=&quot;modal&quot; data-target=&quot;#exampleModal&quot; href=&quot;#&quot;&gt;...&lt;/a&gt; is not clickable at point (818, 37). Other element would receive the click: &lt;div class=&quot;modal-header&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=125.0.6422.77)
-Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [544a9e9536e51d936ff6e2063f0f1025, clickElement {id=f.DB63B51A0A2E8C03DAA74EABA8A3EEDF.d.A0A73131FCA858D7BC15F02D8160235E.e.129}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.77, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\Harish kumar\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58973}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58973/devtoo..., se:cdpVersion: 125.0.6422.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (544a9e9536e51d936ff6e2063f0f1025)] -&gt; xpath: //ul[@class=&apos;navbar-nav ml-auto&apos;]/child::li/child::a[text()=&apos;Contact&apos;]]
-Session ID: 544a9e9536e51d936ff6e2063f0f1025
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at PageObjects.LoginPage.HomePageNavitems(LoginPage.java:25)
-	at StepDefinitions.ContactTest.should_input_contact_details_from_excel(ContactTest.java:71)
-	at ✽.should input Contact details from Excel(file:///C:/Users/Harish%20kumar/Music/Selenium_4%20JAVA%20Harish/Java_Bdd_selenium4/Features/Contact.feature:7)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1200293689", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1200293689'><pre>org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;a class=&quot;nav-link&quot; data-toggle=&quot;modal&quot; data-target=&quot;#exampleModal&quot; href=&quot;#&quot;&gt;...&lt;/a&gt; is not clickable at point (818, 37). Other element would receive the click: &lt;div class=&quot;modal-header&quot;&gt;...&lt;/div&gt;
-  (Session info: chrome=125.0.6422.77)
-Build info: version: &apos;4.19.1&apos;, revision: &apos;abe0ee07dc&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [544a9e9536e51d936ff6e2063f0f1025, clickElement {id=f.DB63B51A0A2E8C03DAA74EABA8A3EEDF.d.A0A73131FCA858D7BC15F02D8160235E.e.129}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 125.0.6422.77, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: C:\Users\Harish kumar\AppDa...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58973}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58973/devtoo..., se:cdpVersion: 125.0.6422.77, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (544a9e9536e51d936ff6e2063f0f1025)] -&gt; xpath: //ul[@class=&apos;navbar-nav ml-auto&apos;]/child::li/child::a[text()=&apos;Contact&apos;]]
-Session ID: 544a9e9536e51d936ff6e2063f0f1025
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-	at PageObjects.LoginPage.HomePageNavitems(LoginPage.java:25)
-	at StepDefinitions.ContactTest.should_input_contact_details_from_excel(ContactTest.java:71)
-	at ✽.should input Contact details from Excel(file:///C:/Users/Harish%20kumar/Music/Selenium_4%20JAVA%20Harish/Java_Bdd_selenium4/Features/Contact.feature:7)
-</pre></div></td>
-<td>6</td>
-<td>TestRunner.CucumberTestRunner@41330d4f</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -137,30 +75,35 @@ Session ID: 544a9e9536e51d936ff6e2063f0f1025
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<td title='TestRunner.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Should verify contact feature under menu using Excel data", "Contact"</td>
+<td></td>
+<td>9</td>
+<td>TestRunner.CucumberTestRunner@74287ea3</td></tr>
+<tr>
 <td title='TestRunner.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check login with valid multiple credentials", "Login"</td>
 <td></td>
 <td>5</td>
-<td>TestRunner.CucumberTestRunner@41330d4f</td></tr>
+<td>TestRunner.CucumberTestRunner@74287ea3</td></tr>
 <tr>
 <td title='TestRunner.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check login with valid multiple credentials", "Login"</td>
 <td></td>
-<td>4</td>
-<td>TestRunner.CucumberTestRunner@41330d4f</td></tr>
+<td>5</td>
+<td>TestRunner.CucumberTestRunner@74287ea3</td></tr>
 <tr>
 <td title='TestRunner.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check login with invalid credentials", "Login"</td>
 <td></td>
-<td>4</td>
-<td>TestRunner.CucumberTestRunner@41330d4f</td></tr>
+<td>3</td>
+<td>TestRunner.CucumberTestRunner@74287ea3</td></tr>
 <tr>
 <td title='TestRunner.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check login with invalid credentials", "Login"</td>
 <td></td>
-<td>4</td>
-<td>TestRunner.CucumberTestRunner@41330d4f</td></tr>
+<td>3</td>
+<td>TestRunner.CucumberTestRunner@74287ea3</td></tr>
 <tr>
 <td title='TestRunner.CucumberTestRunner.runScenario()'><b>runScenario</b><br>Test class: TestRunner.CucumberTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Should verify Signup feature under menu using data table", "Registration"</td>
 <td></td>
 <td>7</td>
-<td>TestRunner.CucumberTestRunner@41330d4f</td></tr>
+<td>TestRunner.CucumberTestRunner@74287ea3</td></tr>
 </table><p>
 </body>
 </html>
