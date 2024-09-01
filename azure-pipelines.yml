@@ -11,7 +11,7 @@ steps:
 - task: Maven@4
   inputs:
     mavenPomFile: './Java_Bdd_selenium4/pom.xml'
-    goals: 'clean verify build'
+    goals: 'clean verify'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     testRunTitle: 'Regression_pipeline'
