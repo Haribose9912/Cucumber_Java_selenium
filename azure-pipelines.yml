@@ -1,8 +1,3 @@
-# Maven
-# Build your Java project and run tests with Apache Maven.
-# Add steps that analyze code, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/languages/java
-
 trigger:
 - master
 
@@ -10,6 +5,9 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
+- script: ls -R
+  displayName: 'List all files and directories'
+
 - task: Maven@4
   inputs:
     mavenPomFile: 'Cucumber_Java_selenium/Java_Bdd_selenium4/pom.xml'
