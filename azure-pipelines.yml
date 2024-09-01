@@ -10,7 +10,7 @@ steps:
 
 - task: Maven@4
   inputs:
-    mavenPomFile: 'Cucumber_Java_selenium/Java_Bdd_selenium4/pom.xml'
+    mavenPomFile: './Java_Bdd_selenium4/pom.xml'
     goals: 'clean verify build'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
