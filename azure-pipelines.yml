@@ -20,3 +20,5 @@ steps:
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
+  env:
+    JAVA_HOME: '/usr/lib/jvm/java-8-openjdk-amd64'
