@@ -12,7 +12,7 @@ pool:
 steps:
 - task: Maven@4
   inputs:
-    mavenPomFile: 'pom.xml'
+    mavenPomFile: '$(System.DefaultWorkingDirectory)/Haribose9912/Cucumber_Java_selenium/blob/master/Java_Bdd_selenium4/pom.xml'
     goals: 'clean verify build'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
