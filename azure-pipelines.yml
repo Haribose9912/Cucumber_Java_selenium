@@ -5,37 +5,18 @@ pool:
   vmImage: ubuntu-latest
 
 steps:
-- script: |
-    echo "Listing all files and directories..."
-    ls -R
+- script: ls -R
   displayName: 'List all files and directories'
-
-- script: |
-    echo "Installing Maven..."
-    wget https://apache.claz.org/maven/maven-3/3.8.6/binaries/apache-maven-3.8.6-bin.tar.gz
-    tar -xzf apache-maven-3.8.6-bin.tar.gz
-    sudo mv apache-maven-3.8.6 /opt/maven
-    sudo ln -s /opt/maven/bin/mvn /usr/bin/mvn
-    mvn -version
-  displayName: 'Install and Verify Maven'
-
-- script: |
-    export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
-    echo "JAVA_HOME is set to $JAVA_HOME"
-  displayName: 'Set JAVA_HOME'
 
 - task: Maven@4
   inputs:
     mavenPomFile: './Java_Bdd_selenium4/pom.xml'
-    goals: 'clean verify'
+    goals: 'clean verify build'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     testRunTitle: 'Regression_pipeline'
-    javaHomeOption: 'Custom'
+    javaHomeOption: 'JDKVersion'
     mavenVersionOption: 'Default'
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
-  env:
-    JAVA_HOME: '/usr/lib/jvm/java-11-openjdk-amd64'
-  displayName: 'Run Maven Build'
